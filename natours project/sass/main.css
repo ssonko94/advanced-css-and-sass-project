@@ -524,6 +524,7 @@ body {
   border-bottom: 0.1875rem solid transparent;
   width: 90%;
   display: block;
+  transition: all 0.3s;
 }
 
 .form__input:focus {
