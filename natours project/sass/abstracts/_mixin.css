@@ -1,0 +1,22 @@
+/*
+
+0 - 600px :  phone
+
+600px  - 900px  :   Tablet  potrait
+
+900px  - 1200px  :  Tablet  landscape
+
+{1200 - 1800} is where our normal styles apply
+
+1800  +          :   Big desktop
+
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+
+
+
+*/
