@@ -55,9 +55,6 @@ $breakpoint argument choices:
   padding: 0;
   box-sizing: inherit; }
 
-body {
-  box-sizing: border-box; }
-
 html {
   font-size: 62.5%; }
   @media (max-width: 75em) {
@@ -69,6 +66,9 @@ html {
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
+
+body {
+  box-sizing: border-box; }
 
 body {
   font-family: "Lato", sans-serif;
