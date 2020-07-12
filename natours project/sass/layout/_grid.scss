@@ -6,8 +6,12 @@
     margin-bottom: $gutter-vertical;
 
     @include respond(tab-port) {
-      margin-right: $gutter-vertical-small;
+      margin-bottom: $gutter-vertical-small;
     }
+  }
+
+  @include respond(tab-port) {
+    max-width: 50rem;
   }
 
   @include clearfix;
@@ -20,6 +24,7 @@
 
       @include respond(tab-port) {
         margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
       }
     }
 
